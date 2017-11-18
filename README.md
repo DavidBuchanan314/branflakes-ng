@@ -7,7 +7,7 @@ the optimising passes were incredibly complex to understand, and as a result the
 obscure bugs which I never tracked down.
 
 `branflakes-ng` attempts to fix these issues. The brainfuck code is converted into a relatively
-flexible Internal Representation, which optimisations are then performed on.
+flexible Intermediate Representation, which optimisations are then performed on.
 
 Finally, one of several backends is chosen to generate output code, whether it be x86_64 assembly
 or C source code.
